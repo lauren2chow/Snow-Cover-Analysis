@@ -15,4 +15,4 @@ This project analyzes snow-covered areas (SCA) using MODIS and AMSR-E remote sen
   - CSV file containing snow pixel statistics.
 - **Tools Used**: `rasterio`, `numpy`, `matplotlib`, `spectral`.
 
-![Snow Cover Map](snow_map.png)
+![Snow Cover Map](/snow_map.png)
