@@ -1,6 +1,6 @@
 # Snow Cover Analysis using MODIS and AMSR-E Data
 
-This project analyzes snow-covered areas (SCA) using MODIS and AMSR-E remote sensing data. Originally intended to be completed in ENVI, the analysis was implemented in Python for enhanced flexibility and automation. The project compares snow cover products for February and May 2011, calculates snow/no-snow pixel statistics, and generates visualizations for Canada’s Prairies and Rocky Mountains.
+This project analyzes snow-covered areas (SCA) using MODIS and AMSR-E remote sensing data. Originally intended to be completed in ENVI, the analysis was implemented in Python for enhanced flexibility and automation. The project compares the snow cover detection abilities of MODIS and AMSR-E sensors for February and May 2011 data, calculates snow/no-snow pixel statistics, and generates visualizations for Canada’s Prairies and Rocky Mountains.
 
 ## Project Overview
 - **Objective**: Compare snow-covered areas derived from MODIS (optical) and AMSR-E (passive microwave) data for February and May 2011.
@@ -14,3 +14,5 @@ This project analyzes snow-covered areas (SCA) using MODIS and AMSR-E remote sen
   - Snow cover maps for February and May.
   - CSV file containing snow pixel statistics.
 - **Tools Used**: `rasterio`, `numpy`, `matplotlib`, `spectral`.
+
+![Snow Cover Map](output/snow_map.png)
