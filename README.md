@@ -5,11 +5,12 @@ This project analyzes snow-covered areas (SCA) using MODIS and AMSR-E remote sen
 ## Project Overview
 - **Objective**: Compare snow-covered areas derived from MODIS (optical) and AMSR-E (passive microwave) data for February and May 2011.
 - **Key Tasks**:
-  - Process MODIS and AMSR-E binary snow cover data.
+  - Process MODIS data using **NDSI** to identify snow-covered areas.
+  - Process AMSR-E data to calculate **SWE** and derive snow cover.
   - Calculate the number of snow/no-snow pixels and their percentages.
   - Generate visualizations (maps) of snow-covered areas.
   - Compare results between MODIS and AMSR-E.
 - **Outputs**:
   - Snow cover maps for February and May.
   - CSV file containing snow pixel statistics.
-- **Tools Used**: Python, `rasterio`, `numpy`, `matplotlib`.
+- **Tools Used**: `rasterio`, `numpy`, `matplotlib`, `spectral`.
